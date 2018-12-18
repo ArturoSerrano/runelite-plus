@@ -1,6 +1,5 @@
 package net.runelite.client.plugins.vorkath;
 import com.google.common.collect.ImmutableSet;
-import com.google.common.eventbus.Subscribe;
 import java.util.Set;
 import javax.inject.Inject;
 import lombok.Getter;
@@ -18,6 +17,7 @@ import net.runelite.api.events.LocalPlayerDeath;
 import net.runelite.api.events.NpcDespawned;
 import net.runelite.api.events.NpcSpawned;
 import net.runelite.api.events.ProjectileMoved;
+import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.overlay.OverlayManager;
